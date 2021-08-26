@@ -81,16 +81,32 @@ header > nav > div > div > a:hover {
 }
 
 .container h1{
-    color: pink;
     border-bottom:solid 1px #e5e5e5;
 }
 
+
+.table1{
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 70%;
+}
+
 .table1 th{
-    padding-right: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
+    background-color: #f0fff0;
+    text-align: center;
+    border:solid 1px #a9a9a9;
 }
 
 .table1 td{
-    padding-right: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
+    border:solid 1px #a9a9a9;
+}
+
+.container2{
+    margin-top: 70px;
+    font-size: 20px;
 }

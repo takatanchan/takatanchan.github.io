@@ -1,54 +1,15 @@
-/*フォームヘッダー*/
-.form-title{
-    padding: 5px 10% 5px 30px;
-}
-.form-title h1 {
-    margin:0 0 50px 0;
-    padding:30px;
-    text-align:center;
-    font-size:30px;
-    color:darken(#e5e5e5, 50%);
-    border-bottom:solid 1px #e5e5e5;
-  }
-.form-title p{
-  padding-left: 10%;
+/*全体*/
+body {
+    background-color: #ebebeb;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
-/*フォーム*/
-.contact-form {
-  border: 1px solid #ccc;
-  padding: 30px;
-  font-size: 13px;
-  font-family: sans-serif;
+ul {
+  list-style: none;
 }
-.contact-form .item {
-  display: block;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-.contact-form .item .label {
-  float: left;
-  padding: 5px;
-  margin:0;
-}
-
-input[type=text]{
-  padding: 5px 70% 5px 10px;
-  border: 1px solid #ccc;
-  font-size: 13px;
-}
-input[type=email]{
-  padding: 5px 70% 5px 10px;
-  border: 1px solid #ccc;
-  font-size: 13px;
-}
-textarea{
-  padding: 5px 70% 5px 10px;
-  border: 1px solid #ccc;
-  font-size: 13px;
-}
-
-
 
 /*ヘッダー*/
 header {
@@ -71,6 +32,7 @@ header > nav > div > a {
     color: #fbfbfb;
     font-size: 20px;
     transition: background-color 0.2s ease;
+    text-decoration: none;
 }
 header > nav > div:hover > a {
     background-color: rgba(0, 0, 0, 0.1);
@@ -110,18 +72,56 @@ header > nav > div > div > a:hover {
     header > nav > div > div > a {
         margin: 5px 0;
         width: 100%;
-}
-header > nav > div > a {
+        
+    }
+    header > nav > div > a {
     font-size: 10px;
-}
+        
+    }
 }
 
+.container{
+    padding-top: 70px;
+}
+
+/*フォーム*/
+.contact-form {
+  border: 1px solid #ccc;
+  padding: 30px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.contact-form .item {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.contact-form .item .label {
+  float: left;
+  padding: 5px;
+  margin:0;
+}
+
+input[type=text]{
+  padding: 5px 70% 5px 10px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+}
+input[type=email]{
+  padding: 5px 70% 5px 10px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+}
+textarea{
+  padding: 5px 70% 5px 10px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+}
 
 /*保存と送信*/
 .form-bottom{
   display: block;
   margin-top: 30px;
-  margin-left: 40%;
   padding: 5px;
   box-sizing: border-box;
   font-size: 13px;
@@ -130,7 +130,6 @@ header > nav > div > a {
 input[type=submit] {
   border: none;
   outline: none;
-  display: block;
   line-height: 30px;
   width: 160px;
   text-align: center;
@@ -139,7 +138,6 @@ input[type=submit] {
   background-color: #696;
   border-bottom: 4px solid #464;
   cursor:pointer;
-
   box-sizing: content-box;
   transition:0.3s ease all
 }
