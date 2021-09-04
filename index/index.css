@@ -84,11 +84,10 @@ header > nav > div > a {
   text-align: center;
   margin: 30px;
   height: 900px;
-  background-image: url(bread1.jpeg);
   display: block;
 }
 .container h1{
-  font-size: 100px;
+  font-size: 140px;
   display: block;
   padding-top: 250px;
   padding-bottom: 30px;
@@ -96,9 +95,9 @@ header > nav > div > a {
   color: lightblue;
 }
 .container p{
-  font-size: 40px;
+  font-size: 50px;
   display: block;
-  color: lightgray;
+  color: lightblue;
 }
 
 /*フッター*/
